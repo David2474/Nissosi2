@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #17181b;
+}
+h1 {
+    text-align: center;
+    color: rgb(211, 203, 203);
+    
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+header {
+    padding: 20px 0 0 0;
+    background: #1d2124;
+    text-align: center;
+}
+
+@media (min-width : 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+.hero {
+    background-image: url(img/jabones1.jpeg);
+    height: 551px;
+}
+.form{
+    align-items: center;
+    text-align: center;
+}
+.encabezado {
+    margin: 30px 0;
+    color: white;
+}
+.submenu {
+    position: relative;
+}
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background: #17181b;
+    padding: 20px;
+}
+.vacio {
+    padding: 10px;
+    background-color: #fbaf32;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+.button {
+    background-color: #fb5a32;
+    color: rgb(247, 240, 240);
+    text-decoration: none;
+}
+.contenido-hero {
+    margin-top: 80px;
+    color: white;
+}
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+.contenido-hero form #buscador {
+    height: 50px;
+    margin-bottom: 0;
+}
+.contenido-hero form .submit-buscador {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(img/lupa.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.barra {
+    padding: 20px 0;
+    background: #fb3232;
+    background: -webkit-linear-gradient(left, #b96f00 0%,#ad5400 100% );
+}
+.barra p {
+    margin: 0;
+    color: white;
+}
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom: 0;
+    }
+}
+.agregar-carrito{
+    margin: 10px 0;
+}
+.card {
+    padding-top: 70px;
+    text-align: center;
+    background: #1d2124;
+}
+
+ .card {
+    margin-top: 40px;
+    padding: 70px;
+    justify-content: center;
+ }
+.bombas{
+    height: 350px;
+    border-radius: 5%;
+}
+.container-products{
+    display: grid;
+    grid-template-columns: repeat(3, .5fr);
+    grid-gap: 20px;
+}
+.info-card {
+    padding: 10px 20px;
+    color: white;
+}
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    background: #1d2124;
+}
+
+.footer .ub a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color:azure;
+}
